@@ -6,69 +6,82 @@
     <title>Gaurav Tewari | IT Project & Product Management</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-            background: url('https://source.unsplash.com/1600x900/?technology,futuristic') no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            background: url('https://source.unsplash.com/1600x900/?technology,future') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
         }
         .container {
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px;
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
             border-radius: 10px;
+            text-align: center;
         }
-        h1 {
-            font-size: 2.5em;
+        h1, h2 {
+            color: #00c3ff;
         }
-        p {
+        .bio {
             font-size: 1.2em;
-            margin: 10px 0;
+            margin-bottom: 20px;
         }
         .strengths {
-            list-style: none;
-            padding: 0;
-        }
-        .strengths li {
-            font-size: 1.2em;
-            margin: 5px 0;
-        }
-        .cta {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
             margin-top: 20px;
         }
-        .cta a {
-            background: #ff9800;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 1.2em;
+        .strengths div {
+            background: #222;
+            padding: 15px;
             border-radius: 5px;
+            margin: 10px;
+            flex: 1;
+            min-width: 120px;
         }
-        .cta a:hover {
-            background: #e68900;
+        .cta {
+            margin-top: 30px;
+        }
+        .cta a {
+            background: #00c3ff;
+            padding: 10px 20px;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .content {
+            text-align: left;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Gaurav Tewari</h1>
-        <p><strong>IT Project & Product Manager | SCRUM Master | Agile | Data | Digital | AI Cloud | IAM | Transformation</strong></p>
-        <p>Bridging technology and business to drive impactful digital transformations.</p>
-        <ul class="strengths">
-            <li>🔹 Agile Project Management</li>
-            <li>🔹 Cloud & IAM Migrations</li>
-            <li>🔹 Data & Digital Transformation</li>
-            <li>🔹 Risk & Dependency Management</li>
-            <li>🔹 Stakeholder Engagement</li>
-            <li>🔹 AI & Data-Driven Decision Making</li>
-        </ul>
+        <h2>IT Project & Product Management</h2>
+        
+        <p class="bio">Expert in Data, Digital, AI, IAM, Agile, Cloud, and Project Transformation. Passionate about bridging strategic vision with technical execution.</p>
+        
+        <div class="strengths">
+            <div>Leadership</div>
+            <div>Agile Project Management</div>
+            <div>Product Management & Strategy</div>
+            <div>Stakeholder Management</div>
+            <div>Risk & Dependency Management</div>
+        </div>
+        
+        <div class="content">
+            <h2>From Quantum Curiosity to AI Leadership: A Technologist’s Journey</h2>
+            <p>In 1998, as the internet was reshaping industries, I stood at a crossroads—armed with a deep understanding of Quantum Mechanics, Thermodynamics, and Electromagnetic Theory...</p>
+            <p>(Full Journey Content Here)</p>
+        </div>
+        
         <div class="cta">
-            <a href="https://www.linkedin.com/in/gauravtewaripm/" target="_blank">Let's Connect</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">Let's Connect!</a>
         </div>
     </div>
 </body>
