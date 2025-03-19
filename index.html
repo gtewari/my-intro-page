@@ -102,7 +102,22 @@ Driven by relentless curiosity, I transitioned from exploring the unpredictable 
             <p>(Full Journey Content Here)</p>
             <p>(Full Journey Content Here)</p>
         </div>
-        
+
+        <script>
+        document.getElementById('imageInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const previewImage = document.getElementById('previewImage');
+                    previewImage.src = e.target.result;
+                    previewImage.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+
         <div class="cta">
             <a href="https://www.linkedin.com/in/your-profile" target="_blank">Let's Connect!</a>
         </div>
